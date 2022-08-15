@@ -3,7 +3,7 @@ import './App.css';
 import ClassComponent from './ClassComponent';
 import FunctionalComponents from './FunctionalComponents';
 
-let count = 2
+let count = 1
 
 class App extends Component {
 
@@ -12,7 +12,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           Components Go Here<br />
-          <FunctionalComponents count={count} />
+          <FunctionalComponents passCount={count} />
           <ClassComponent count={count}/>
         </header>
       </div>
